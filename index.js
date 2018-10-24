@@ -13,7 +13,6 @@ function destructivelyRemoveLastDriver() {
   drivers.pop();
 }
 
-function destructivelyRemoveFirstDriver(name) {
-  drivers.unshift(name);
-  return drivers;
+function destructivelyRemoveFirstDriver() {
+  drivers.shift();
 }
